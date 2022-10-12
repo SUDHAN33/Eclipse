@@ -71,5 +71,15 @@ public mainPage() {
 		}
 	});
 	contentPane.add(li);
+	
+	JButton btnNewButton = new JButton("EXIT");
+	btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 18));
+	btnNewButton.setBounds(394, 378, 85, 21);
+	btnNewButton.addActionListener(new ActionListener() {
+		public void actionPerformed(ActionEvent e) {
+			dispose();
+		}
+	});
+	contentPane.add(btnNewButton);
 }
 }
